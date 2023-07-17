@@ -1,11 +1,52 @@
 * {
     margin: 0 auto;
-    padding: 2px;
+    padding: 1px;
     box-sizing: border-box; 
 }
 
+body {
+    margin: 0;
+    font-family: "Euclid Circular A";
+    color: #1d1d1d;
+    background: #c4d0dc;
+}
+
+p, h1, h2,  h3, img {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+}
+
+section { padding: 40px 0; }
+
+.image {
+    height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("assets/icons/back.jpeg");
+}
+
+.text {
+    background: #fff;
+    position: relative;
+}
+
+.text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 125%;
+    background:#ffffff;
+    rotate: -3deg;
+    translate: -50% -50%;
+}
+
 main {
-    width: 90%;
+    
     padding: 10px;
 }
 
@@ -46,7 +87,7 @@ main {
     margin: 10px;
     padding: 10px;
     font-family: 'Roboto', sans-serif; 
-    color: #ff0000;
+    color: #ffea00;
     text-align: center;
 }
 
@@ -126,11 +167,10 @@ footer {
 }
 
 #header {
-    border-top:5px solid #024702;
+    border-top:1px solid #000000;
     /*background: linear-gradient(to left, #ff0505, #060253);*/
-    background: linear-gradient(to left, #ffffff, #000000);
-    padding: 20px;
-    color: #fff;
+    background: linear-gradient(to left, #02236a, #03163f);
+    padding: 5px;
     
 }
 
@@ -139,11 +179,11 @@ footer {
     width: 40px;
     font-size: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #ffd500;
 }
 
 .logo {
-    padding: 10px;
+    padding: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:large;
 }
@@ -155,12 +195,6 @@ footer {
 .logo img:hover {
     padding: 3px;
 }
-
-.container {
-    
-}
-
-
 
 .imgs {
     text-align:end ;
@@ -200,13 +234,8 @@ footer {
     text-align: end;
 }
 
-
-.buscar input {
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    flex: 1;
+.buscar span {
+    font-size: small;
 }
 
 .buscar button {
@@ -221,9 +250,8 @@ footer {
 
 .sobre {
     display: flex;
-    padding: 0px;
-    background-color: #000000;
-
+    padding: 1px;
+    background: linear-gradient(to left, #02236a, #000000);
 }
 
 .sobre ul {
@@ -238,6 +266,7 @@ footer {
 }
 
 .sobre li a {
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
@@ -247,8 +276,8 @@ footer {
     color: #ffffff;
 }
 
-.sobre li a:hover {
-    text-decoration: underline;
+.sobre li:hover {
+    text-decoration: none;
 }
 
 .sobre-curso {
