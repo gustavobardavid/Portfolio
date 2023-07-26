@@ -4,24 +4,9 @@
     --background: #000000;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-}
-
-body {
-    background-color: var(--background);
-    display: grid;
-    height: 100vh;
-    margin: 0px;
-    font-size: 13px;
-    font-family: 'Red Hat Display', sans-serif;
-}
-
-/* .container {
+ .container {
     margin: 50px 500px;
-}  */
+}  
   
 .profile-wrapper {
     width: 250px;

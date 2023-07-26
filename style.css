@@ -1,43 +1,33 @@
+
 * {
-    margin: 0 auto;
-    padding: 1px;
-    box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: monospace;
     margin: 0;
     color: #1d1d1d;
-    background:url(assets/icons/start.png);
+    background: linear-gradient(to right, #010e1f, #010e1f);
+    background-size: cover;
     background-size: cover;
 }
-
-main {  
-    padding: 10px;
-}
-
-header {
-    border-top:1px solid #000000;
-    /* background: linear-gradient(to left, #02236a, #03163f); */
-    padding: 5px;
-    height: auto;
-    /* background-color: #fff; */
-    background-size: cover;
-    font-family: monospace;
-}
-
 
 h1 {
     font-family: monospace;
     width: 50%;
     margin: 0px 400px;
     text-align: center;
-    border-top:5px solid rgb(255, 255, 255);
-    background: linear-gradient(to right, #010e1f, #000000);
+    border-top:5px solid #d3d9a9;
+    background: linear-gradient(to left, #f18324, #f18324);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
     padding: 20px; 
-    color: hsl(0, 0%, 100%);
+    color: #0d2226;
 }
 
   /* @media screen and (max-width: 820px) {
@@ -147,4 +137,14 @@ h1 {
 
 .dropdown > .menu > a > span {
   font-size: 20px;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 50px;
+  padding: 20px;
+  box-sizing: border-box; 
 }

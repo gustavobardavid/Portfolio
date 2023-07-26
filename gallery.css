@@ -3,22 +3,16 @@
     --background: #3C343D;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-}
-
 .background {
     display: grid;
-    place-items: center;
-    height: 50vh;
+    place-items:center; 
+    height: 60vh;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 15px;
     max-width: 900px;
 }
 
