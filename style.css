@@ -140,7 +140,9 @@ h1 {
 }
 
 aside {
-  width: 30%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   box-sizing: border-box;
   margin: 50px;
   padding: 20px;
