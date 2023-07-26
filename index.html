@@ -4,123 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./gallery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Portfolio</title>
 </head>
 
-<header id="header">
-        
-        <div class="header">
-            <div class="content">
-                <div class="principal">
-                    <div class="logo">
-                        
-                        <div class="imgs">
-                        <a href="http://instagram.com/gustavobardavid">
-                            <img src="assets/icons/insta.png">
-                        </a>
-                        <a href="http://github.com/gustavobardavid">
-                            <img src="assets/icons/github.png">
-                            
-                        </a>
+<header>
+    
+    <div class="container">       
+            <div class="profile-wrapper">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img
+                            src="assets/icons/eu.jpg"
+                            alt="Profile"
+                        >
                     </div>
-                </div>
-                        
-                    <div class="buscar">   
-
-                        <form>
-                            <a href="./index.html">
-                                <button><span class="material-symbols-outlined">
-                                    call
-                                    </span>Contato</button>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#instagram" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                                     stroke-linecap="round" stroke-linejoin="round"
+                                >
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#twitter" title="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"
+                                >
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 
+                                            10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5
+                                            4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                    >
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#threads" title="Threads">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" 
+                                     fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                >
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M19 7.5c-1.333 -3 -3.667 -4.5 -7 -4.5c-5 0 -8 2.5 -8 9s3.5 9 8 9s7 -3 7
+                                            -5s-1 -5 -7 -5c-2.5 0 -3 1.25 -3 2.5c0 1.5 1 2.5 2.5 2.5c2.5 0 3.5 -1.5 
+                                            3.5 -5s-2 -4 -3 -4s-1.833 .333 -2.5 1"
+                                    >
+                                    </path>
+                                 </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#linkedin" title="Linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                     fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                >
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 
+                                             2 0 0 1 -2 -2z">
+                                    </path>
+                                    <path d="M8 11l0 5"></path>
+                                    <path d="M8 8l0 .01"></path>
+                                    <path d="M12 16l0 -5"></path>
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                 </svg>
                                 </a>
-                            </form> 
-
+                        </li>
+                    </ul>
+                    <div class="profile-name">
+                        <h2>Gustavo Bardavid</h2>
+                        <div class="profile-bio">
+                            I'm JavaScript full-stack engineer, 
+                            love working with <em>React</em> and <em>Node.js</em>.
                         </div>
-                </div>
-
-                <nav class="sobre">
-
-                    <div class="container">
-                        <ul>
-                            <li><span class="material-symbols-outlined">
-                                library_books
-                                </span><a href="./livros.html">Livros</a></li>
-                            <li><span class="material-symbols-outlined">
-                                school
-                            </span><a href="https://ifpb.edu.br/">Acadêmico</a></li>
-                        </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    
-    <body>
-    
-    <main class="main">
 
-    
-
-        <section class="image"></section>
+        <!-- <div class="dropdown">
         
-        <section class="image"></section>
-        <section class="text">
+            <div class="content">
+            
+             <span class="material-symbols-outlined"> expand_more </span>
+           </div>
+           
+           <button></button>
+           <div class="menu">
+               <a>
+                   <p>REVIEWS</p>
+                </a>
+                <a>
+                    <p>GAMEPLAYS</p>
+                </a>
+                <a>
+                    <p>NOTICIAS</p>
+                </a>
+            </div>  -->
+            
+        
+    </header>
+        
+        <body>
+            <main class="main">
+            
+        
 
             
-            <div class="present">
-            <img src="assets/icons/IMG_6346.png" alt="">
+                <h1>HTML & CSS</h1>
+                
+                        
+                <span class="background">
+                    <section class="gallery">
+                        <article class="card">
+                            <figure>
+                                <img
+                                    src="assets/icons/nanaygames.png"
+                                    alt="Preview"
+                                    title="Preview"
+                                />
+                            </figure>
+                        </article>
+                        <article class="card">
+                            <figure>
+                                <img
+                                    src="assets/icons/streaming.png"
+                                    alt="Preview"
+                                    title="Preview"
+                                />
+                            </figure>
+                        </article>
+                        <article class="card">
+                            <figure>
+                                <img
+                                    src="assets/icons/review.png"
+                                    alt="Preview"
+                                    title="Preview"
+                                />
+                            </figure>
+                        </article>
+                        <article class="card">
+                            <img
+                                src="assets/icons/portalifpb.png"
+                                alt="Preview"
+                                title="Preview"
+                            />
+                        </article>
+                        
+                        <!--? more picture here  -->
+                        <!-- Pictures from Freepik -->
+                    </section>            
+                </span>
+          
+                <h1>React & JavaScript</h1> 
+                
+                    <span class="background">
+                        <section class="gallery">
+                            <article class="card">
+                                <figure>
+                                    <img
+                                        src="assets/icons/weather.png"
+                                        alt="Preview"
+                                        title="Preview"
+                                    />
+                                </figure>
+                            </article>
+                            <article class="card">
+                                <figure>
+                                    <img
+                                        src="assets/icons/alarme.png"
+                                        alt="Preview"
+                                        title="Preview"
+                                    />
+                                </figure>
+                            </article>
+                            <article class="card">
+                                <figure>
+                                    <img
+                                        src="images/autumn.jpg"
+                                        alt="Preview"
+                                        title="Preview"
+                                    />
+                                </figure>
+                            </article>
+                            <article class="card">
+                                <img
+                                    src="images/winter.jpg"
+                                    alt="Preview"
+                                    title="Preview"
+                                />
+                            </article>
+                            
+                            <!--? more picture here  -->
+                            <!-- Pictures from Freepik -->
+                        </section>            
+                    </span>
+              
             
-            <div class="text">
-
-                <h3>CodeWithDavid</h3>
-                
-                <h1>I'm a Developer</h1>
-                
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Expedita recusandae mollitia ipsam blanditiis quos nesciunt officia quam! 
-                    Corporis molestiae ex quia id culpa animi amet quos neque saepe hic? Dolor?</p>
-                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eveniet it
-                        aque natus magnam voluptatum earum h
-                        ic, repellat fugit perspiciatis! Q
-                        uaerat dolores corporis, alias inventore neque rerum nesciunt ut consequuntur dignissimos.</p>
-                    </div>
-                </div>
-                
-            </section>
-
-            <section class="image"></section>
-            <section class="text">
-
-                <div class="sobre">
-                    
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime porro maiores beatae dignissimos ab iusto eum blanditiis rem, dolore consequuntur officia laborum neque accusamus dolorum dolor optio aliquid sit explicabo.</h2>
-                    
-                </div>
-            </section>
-
-            <section class="image"></section>
-            <section class="text">
-                
-            </section>
-            
-            <section class="image"></section>
-            <section class="text">
-                
-            </section>
-                
-            <section class="image"></section>
-            <section class="text">
-                
-            </section>
+           
             
         </main>
 
