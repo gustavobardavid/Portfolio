@@ -37,7 +37,7 @@ aside {
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  margin: 50px;
+  margin: 20px;
   padding: 20px;
   gap: 150px;
   box-sizing: border-box; 
@@ -45,7 +45,6 @@ aside {
 
 aside h1 {
     font-family: monospace;
-    width: 50%;
     margin: 0px 0px;
     text-align: left;
     border: none;
@@ -181,13 +180,18 @@ nav li a:hover {
   color:#f18324;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
+
   h1 {
-    margin: 0 100px;
-  } 
+    width: 100%;
+    margin: 0 0;
+  }
   aside {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     width: 100%;
   }
+  
 }
