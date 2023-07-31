@@ -14,6 +14,10 @@
     position: relative;
 }
 
+.profile-wrapper:hover {
+    transform: scale(1.2);
+}
+
 .profile {
     display: flex;
     flex-direction: column;

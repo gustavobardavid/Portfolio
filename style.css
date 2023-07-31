@@ -9,7 +9,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     font-family: monospace;
-    margin: 0;
+    margin: 0 0;
     color: #1d1d1d;
     background: linear-gradient(to right, #010e1f, #010e1f);
     background-size: cover;
@@ -32,13 +32,36 @@ h1 {
   
 aside {
   display: flex;
-  flex-direction: row;
   width: 100%;
   box-sizing: border-box;
   margin: 50px;
   padding: 20px;
   gap: 150px;
   box-sizing: border-box; 
+}
+
+aside h1 {
+    font-family: monospace;
+    width: 50%;
+    margin: 0px 0px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    color: #ffffff;
+}
+
+aside h2 {
+  text-align: left;
+  color: #d2d0e6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 aside img {
@@ -50,6 +73,67 @@ aside img:hover {
   transform: scale(1.1);
 }
 
-aside div:hover {
+/* aside div:hover {
   transform: scale(1.1);
+} */
+
+footer {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  
+  .footer-top-wrapper {
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 0 auto;
+    padding: 16px;
+    min-height: 160px;
 }
+
+.footer-top-wrapper > section {
+    width: 100%;
+}
+
+footer h2 {
+    text-align: center;
+    color: #d2d0e6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+menu li {
+    margin-bottom: 0px;
+}
+
+
+/* .social-links {
+    gap: 8px;
+    width: 180px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+} */
+
+
+
+
