@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+main {
+  margin: 10px 0px;
+}
 body {
     font-size: 13px;
     font-weight: 400;
@@ -73,9 +76,16 @@ aside img:hover {
   transform: scale(1.1);
 }
 
-/* aside div:hover {
-  transform: scale(1.1);
-} */
+a {
+  text-decoration: none;
+  color: #f18324;
+}
+
+aside a {
+  text-decoration: underline;
+  color: #f18324;
+  font-weight: 600;
+}
 
 footer {
     color: white;
@@ -134,6 +144,39 @@ menu li {
     height: 24px;
 } */
 
+nav {
 
+  font-family: monospace;
+  font: bold;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
 
+nav ul {
+  list-style-type:none ;
+  margin-left: 10px;
+  padding: 1px;
+}
 
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav li span {
+  font-size: small;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color:#f18324;
+}
