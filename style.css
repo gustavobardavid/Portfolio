@@ -180,3 +180,14 @@ nav li a:hover {
   text-decoration: none;
   color:#f18324;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    margin: 0 100px;
+  } 
+  aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
