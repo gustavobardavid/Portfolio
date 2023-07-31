@@ -8,6 +8,12 @@
 main {
   margin: 10px 0px;
 }
+
+#img {
+  width: 400px;
+  margin: 0 500px;
+}
+
 body {
     font-size: 13px;
     font-weight: 400;
@@ -22,7 +28,7 @@ body {
 h1 {
     font-family: monospace;
     width: 50%;
-    margin: 0px 400px;
+    margin: 10px 400px;
     text-align: center;
     border-top:5px solid #d3d9a9;
     background: linear-gradient(to left, #f18324, #f18324);
@@ -31,6 +37,15 @@ h1 {
     background-repeat: no-repeat; 
     padding: 20px; 
     color: #0d2226;
+}
+
+h2 {
+    text-align: center;
+    color: #d2d0e6;
+    margin: 25px 25px;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
 }
   
 aside {
@@ -193,5 +208,4 @@ nav li a:hover {
     flex-direction: column;
     width: 100%;
   }
-  
 }
