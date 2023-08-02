@@ -10,8 +10,9 @@ main {
 }
 
 #img {
-  width: 400px;
-  margin: 0 500px;
+  width: 30%;
+  height: auto;
+  margin: 10px 500px;
 }
 
 body {
@@ -30,7 +31,7 @@ h1 {
     width: 50%;
     margin: 10px 400px;
     text-align: center;
-    border-top:5px solid #d3d9a9;
+    border-top:5px solid #ffffff;
     background: linear-gradient(to left, #f18324, #f18324);
     background-size: cover; 
     background-position: center;
@@ -46,7 +47,12 @@ h2 {
     opacity: 0.7;
     font-size: 20px;
     font-weight: 600;
+} 
+
+h3 {
+  color: #f18324;
 }
+
   
 aside {
   display: flex;
@@ -159,7 +165,6 @@ menu li {
 } */
 
 nav {
-
   font-family: monospace;
   font: bold;
   font-size: larger;
@@ -208,4 +213,66 @@ nav li a:hover {
     flex-direction: column;
     width: 100%;
   }
+  #img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+}
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Três colunas igualmente espaçadas */
+  gap: 10px; /* Espaçamento entre as fotos */
+  max-width: 1200px; /* Largura máxima da grade */
+  margin: 0 auto; /* Centraliza a grade horizontalmente */
+  padding: 20px; /* Espaçamento ao redor da grade */
+  
+}
+
+/* Estilos para as imagens dentro da grade */
+.photo-grid img {
+  width: 100%; /* Ajusta a largura da imagem para ocupar o espaço da coluna */
+  height: auto; /* Mantém a proporção original da imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+.photo-grid div {
+  box-sizing: border-box;
+  margin: 0 0;
+  /* border: 1px solid #f3eeee; */
+  border-radius: 5px;
+  padding: 5px 0px;
+  box-sizing: border-box; 
+  transition: background-image 0.3s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.photo-grid span {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.photo-grid div:hover {
+  
+}
+
+.photo-grid button {
+  background-color: #ffffff;
+  height: 20px;
+  width: 100px;
+  border: 1px solid #efe8e8;
+  /* border:1px solid #ffffff; */
+  color:#000000;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.photo-grid button:hover {
+  
 }
