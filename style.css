@@ -222,12 +222,12 @@ nav li a:hover {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Três colunas igualmente espaçadas */
-  gap: 10px; /* Espaçamento entre as fotos */
-  max-width: 1200px; /* Largura máxima da grade */
+  grid-template-columns: repeat(6,1fr); /* Três colunas igualmente espaçadas */
+  gap: 50px; /* Espaçamento entre as fotos */
+  max-width: 95%; /* Largura máxima da grade */
   margin: 0 auto; /* Centraliza a grade horizontalmente */
-  padding: 20px; /* Espaçamento ao redor da grade */
-  
+  padding: 1px; /* Espaçamento ao redor da grade */
+  font-family: monospace;
 }
 
 /* Estilos para as imagens dentro da grade */
@@ -256,21 +256,16 @@ nav li a:hover {
   font-weight: 300;
 }
 
-.photo-grid div:hover {
-  
-}
 
 .photo-grid button {
-  background-color: #ffffff;
-  height: 20px;
-  width: 100px;
-  border: 1px solid #efe8e8;
-  /* border:1px solid #ffffff; */
-  color:#000000;
-  align-items: center;
-  font-weight: 500;
+  background-color: #ff0606;
+  border: none;
+  color:#ffffff;
+  text-align: left;
+  font-weight: 700;
   cursor: pointer;
   padding: 0px;
+
 }
 
 .photo-grid button:hover {
