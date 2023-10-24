@@ -6,10 +6,12 @@
 
 main {
   margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
 #img {
-  width: 30%;
+  width: 10%;
   height: auto;
   margin: 10px 500px;
 }
@@ -27,8 +29,8 @@ body {
 
 h1 {
   font-family: monospace;
-  width: 50%;
-  margin: 10px 400px;
+  width: 90%;
+  margin: 10px 300px;
   text-align: center;
   border-top: 5px solid #ffffff;
   background: linear-gradient(to left, #f18324, #f18324);
@@ -203,44 +205,4 @@ nav li a:hover {
       height: auto;
       margin: 10px 0;
   }
-}
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Single column for smaller screens */
-  gap: 10px; /* Adjust spacing as needed for smaller screens */
-  max-width: 95%;
-  margin: 0 auto;
-  padding: 1px;
-  font-family: monospace;
-}
-.photo-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
-}
-.photo-grid div {
-  box-sizing: border-box;
-  margin: 0 0;
-  border-radius: 5px;
-  padding: 5px 0px;
-  box-sizing: border-box;
-  transition: background-image 0.3s ease-in-out;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
-}
-.photo-grid span {
-  font-size: medium;
-  font-weight: 300;
-}
-.photo-grid button {
-  background-color: #ff0606;
-  border: none;
-  color: #ffffff;
-  text-align: left;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 0px;
-}
-.photo-grid button:hover {
-  /* Add styles for button hover state */
 }

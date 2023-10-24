@@ -8,13 +8,14 @@
         display: grid;
         place-items: center; 
         height: 60vh;
+        max-width: 50px;
     }
 
     .gallery {
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
-        max-width: 800px;
+        max-width: 600px;
     }
 
     .card:hover {
@@ -35,7 +36,7 @@
     }
 
     .card img {
-        height: 360px;
+        height: 460px;
     }
 
     .card:hover {
@@ -45,9 +46,7 @@
         border-radius: 8px;
     }
     
-    h1 {
-        /* Estilos personalizados para dispositivos de largura maior, se necessário */
-    }
+
 }
 
 /* Estilos para dispositivos móveis */
