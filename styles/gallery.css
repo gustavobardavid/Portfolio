@@ -15,7 +15,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
-        max-width: 400px;
+        max-width: 600px;
     }
 
     .card:hover {
@@ -36,7 +36,7 @@
     }
 
     .card img {
-        height: 360px;
+        height: 460px;
     }
 
     .card:hover {
